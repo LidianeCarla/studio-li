@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&family=Laila:wght@300;500&family=Open+Sans&family=Roboto:wght@100&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+
+body{
+    background-color: rgba(243, 237, 237, 0.425);
+}
+
+.btn{
+    background-color: rgb(250, 53, 86);
+    color: white;
+    border-radius: 2px;
+    font-family: Ubuntu;
+    width: 150px;
+    margin: 0  6px;
+}
+
+.btn:hover{
+    color:rgb(255, 255, 255);
+    background-color: #800808b2;
+}
+
+.titulo{
+    font-size: 2rem;
+    color:  black;
+    font-family:Inter;
+    text-decoration: underline pink;
+}
+
+.label{
+    color: black;
+    font-size: 20px;
+ 
+}
+
+
+.form-control:focus{
+    border-color: rgba(255, 192, 203, 0.815) !important;
+    box-shadow: 0 0 0 0.10rem rgba(255, 10, 71, 0.164) !important;
+}
+
+a{
+    text-decoration: none;
+    color: #800808;
+}
