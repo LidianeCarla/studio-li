@@ -2,6 +2,7 @@
 
 body{
     background-color: rgba(243, 237, 237, 0.425);
+ 
 }
 
 .titulo{
@@ -13,16 +14,17 @@ body{
 
 .label{
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Inter;
 }
 
 .btn{
     background:  rgb(250, 53, 86);
     color: white;
-    font-family: Ubuntu;
+    font-family: Inter;
     border-radius: 2px;
-    width: 180px;
-    margin: 0  6px;
+    width: 150px;
+    margin: 0  20px;
    
 }
 
@@ -33,10 +35,15 @@ body{
 
 a{
     text-decoration: none;
-    color: #800808;
+    color: rgba(0, 0, 0, 0.89);
+    font-family: Inter;
 }
 
 .form-control:focus{
     border-color: rgba(255, 192, 203, 0.815) !important;
     box-shadow:  0 0 0 0.10rem rgba(255, 10, 71, 0.164)  !important;
+}
+
+.errorInput{
+    border: 2px solid rgb(141, 9, 9) !important;
 }
